@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Andrew's Dark Web Project</title>
+  <title>Dark Web Vocabulary</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -21,8 +21,76 @@
     }
     header h1 {
       margin: 0;
-      font-size: 2.8em;
+      font-size: 2.5em;
       color: #ff69b4;
-      text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 20px #ff1493, 0 0 40px #ff1493;
+      text-shadow: 0 0 5px #ff69b4, 0 0 15px #ff1493, 0 0 30px #ff1493;
     }
-    header p {
+    nav {
+      background: #111;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #ff69b4;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      text-shadow: 0 0 5px #ff69b4, 0 0 15px #ff1493;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #ff69b4;
+      margin-top: 20px;
+      text-shadow: 0 0 5px #ff69b4, 0 0 15px #ff1493, 0 0 30px #ff1493;
+    }
+    ul {
+      list-style-type: square;
+    }
+    li {
+      margin: 15px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #ff69b4;
+      font-size: 0.9em;
+      text-shadow: 0 0 5px #ff69b4, 0 0 10px #ff1493;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dark Web Vocabulary</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="vocabulary.html">Vocabulary</a>
+  </nav>
+
+  <main>
+    <h2>Key Terms and How They Relate to the Dark Web</h2>
+    <ul>
+      <li><b>Bit:</b> Encrypted messages on the dark web are built from bits — the 0s and 1s that carry hidden information across Tor networks.</li>
+      <li><b>Byte:</b> Files and stolen data exchanged on the dark web are measured in bytes, the building blocks of all digital content.</li>
+      <li><b>Roundoff:</b> Cryptography on the dark web relies on precision — even tiny roundoff errors can weaken encryption and compromise anonymity.</li>
+      <li><b>Analog Data:</b> Voice and video (originally analog) are digitized before being transferred through dark web channels to maintain secrecy.</li>
+      <li><b>Lossless:</b> Dark web users use lossless compression to share sensitive files like stolen databases without losing any details.</li>
+      <li><b>Lossy:</b> Media shared on the dark web, like images or pirated videos, is often lossy-compressed for faster uploads and downloads.</li>
+      <li><b>Metadata:</b> Metadata can expose identities or locations. On the dark web, stripping metadata is critical for staying anonymous.</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Andrew | Dark Web Project</p>
+  </footer>
+</body>
+</html>
